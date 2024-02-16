@@ -13,9 +13,9 @@
     --fw-reg: 300;
     --fw-bold: 900;
     
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: #ffe3e3;
+    --clr-dark: #423838;
+    --clr-accent: #cc16e0;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -37,17 +37,17 @@
 
 /* General styles */
 
-/* endable this to add smooth scrolling */
-/* html {
+
+ html {
     scroll-behavior: smooth;
-} */
+} 
 
 
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
     margin: 0;
-    font-family: var(--ff-primary);
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: var(--fs-body);
     line-height: 1.6;
 }
